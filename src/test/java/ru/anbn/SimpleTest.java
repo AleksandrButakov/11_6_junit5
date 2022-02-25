@@ -27,7 +27,6 @@ public class SimpleTest {
         System.out.println("@AfterAll annotation!");
     }
 
-
     @Test
     void simpleGreenTest() {
         assertTrue(3 > 2);
