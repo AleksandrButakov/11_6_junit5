@@ -11,7 +11,6 @@ public class SimpleTest {
     @Test
     void simpleGreenTest() {
         assertTrue(3 > 2);
-        //System.out.println("Hello, world!");
     }
 
     @Test
