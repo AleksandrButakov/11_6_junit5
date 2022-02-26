@@ -20,7 +20,7 @@ public class ParameterizedSearchTest {
     void precondition() {
         Selenide.open("https://ya.ru");
     }
-
+    
     @AfterEach
     void afterEach() {
         Selenide.closeWebDriver();
