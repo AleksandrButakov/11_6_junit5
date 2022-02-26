@@ -69,6 +69,7 @@ public class ParameterizedSearchTest {
         Selenide.$$("li.serp-item").find(text(expectedText)).shouldBe(visible);
     }
 
+
     /* название статического метода mixesArgumentsTest() соответствует имени метода в @MethodSource
      * если бы не соответствовало, пришлось отдельно бы указывать это, что мы и сделали ниже
      * ниже написали метод в котором указали все необходимые данные, потом эти данные передаем в @MethodSource
@@ -89,5 +90,8 @@ public class ParameterizedSearchTest {
     void mixedArgumentsTest(String firstArg, List<Integer> secondArg, boolean aBooleanValue) {
         System.out.println("String: " + firstArg + "List: " + secondArg.toString() + " boolean: " + aBooleanValue);
     }
+
+
+    
 
 }
