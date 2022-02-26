@@ -1,4 +1,4 @@
-package ru.anbn;
+package ru.anbn.junitcore;
 
 import org.junit.jupiter.api.*;
 
