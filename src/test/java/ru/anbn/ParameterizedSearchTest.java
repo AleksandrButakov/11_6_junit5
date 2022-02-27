@@ -88,7 +88,7 @@ public class ParameterizedSearchTest {
      */
 
     void mixedArgumentsTest(String firstArg, List<Integer> secondArg, boolean aBooleanValue) {
-        System.out.println("String: " + firstArg + "List: " + secondArg.toString() + " boolean: " + aBooleanValue);
+        System.out.println("String: " + firstArg + " List: " + secondArg.toString() + " boolean: " + aBooleanValue);
     }
 
 
